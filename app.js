@@ -104,6 +104,8 @@ Note: The final result should log as:
 'taco -> sushi -> cupcake -> tofu -> cheeseburger'
 
 Complete Exercise 9 in the space below:
-*/ //const allFoods = (foods, join());
-//console.log(join(`->`));
-//console.log("Exercise 9 result:", allFoods);
+*/
+
+const allFoods = foods.join(`->`);
+console.log(allFoods);
+console.log("Exercise 9 result:", allFoods);
